@@ -54,12 +54,12 @@
                     url: '/sys',
                     icon: 'fa-cog',
                     submenus: [{
-                        text: '用户',
+                        text: '用户管理',
                         name: 'user',
                         icon: 'fa-user',
                         url: '/sys/user'
                     }, {
-                        text: '角色',
+                        text: '角色管理',
                         name: 'role',
                         icon: 'fa-users',
                         url: '/sys/role'
