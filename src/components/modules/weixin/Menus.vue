@@ -1,6 +1,6 @@
 <template>
     <div class="hello">
-        <h1>用户管理</h1>
+        <h1>自定义菜单</h1>
     </div>
 </template>
 

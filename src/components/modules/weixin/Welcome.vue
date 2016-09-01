@@ -1,6 +1,6 @@
 <template>
     <div class="hello">
-        <h1>用户管理</h1>
+        <h1>欢迎语</h1>
     </div>
 </template>
 
@@ -12,10 +12,8 @@
             }
         },
         methods: {
-
         },
         ready: function() {
-
         }
     }
 </script>

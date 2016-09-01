@@ -4,7 +4,7 @@
         <!-- main navigation -->
         <nav class="main-navigation" data-height="auto" data-size="6px" data-distance="0" data-rail-visible="true" data-wheel-step="10">
           <p class="nav-title">菜单</p>
-          
+
           <ul class="nav">
             <!-- dashboard -->
             <li class="active" v-if="currMenu.submenus==null">
@@ -23,7 +23,7 @@
                 <span>{{currMenu.text}}</span>
               </a>
               <ul class="sub-menu" style="display:block;">
-                <li v-for="sub in currMenu.submenus" :class="{'active' : sub.name==subMenu.name}">
+                <li v-for="sub in currMenu.submenus" :class="{'active' : sub.url==$route.path}">
                   <a v-link="sub.url">
                     <span>{{sub.text}}</span>
                   </a>
