@@ -1,6 +1,6 @@
-# vue-demo
+# vue-admin
 
-> loyalove vue demo!
+> loyalove vue admin!
 
 ## Build Setup
 
