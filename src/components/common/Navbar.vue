@@ -93,13 +93,13 @@
     export default {
         data: function() {
             return {
-               
+
             }
         },
         props: ['currUser','allMenus'],
         methods: {
             switchMenu: function(menu) {
-                this.$dispatch('switch-menu', menu);
+                this.$emit('switch-menu', menu);
             }
         }
     }
